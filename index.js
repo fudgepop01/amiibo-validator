@@ -48,7 +48,7 @@ for (const bin of binFileList) {
   const nameOut = bin.padStart(longestFileLen, ' ').bgWhite.black;
   const modifiedOut = (spiritMod || statMod || typeMod) ? '        '.bgRed : '        '.bgGreen;
   const spiritModOut = (spiritMod) ? '       '.bgRed : '       '.bgGreen;
-  const statModOut = (spiritMod) ? '     '.bgRed : '     '.bgGreen;
+  const statModOut = (statMod) ? '     '.bgRed : '     '.bgGreen;
   const typeModOut = (typeMod) ? '    '.bgRed : '    '.bgGreen;
   out += `${nameOut}${sep}${modifiedOut}${sep}${spiritModOut}${sep}${statModOut}${sep}${typeModOut}${newLine}`;
 }
