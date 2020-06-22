@@ -17,10 +17,12 @@ you should get output that looks something like this:
 **Green** means the amiibo has *not* been alterted with the use of spirits.
 
 For the sake of displaying as much detail as possible, I also display what led to the conclusion
-by showing the result for each piece of evidence: that being "spirits, stats, and type"
+by showing the result for each piece of evidence.
+
+This is all fully configurable using a `rules.txt` file!~
 
 ## How to Identify a Spirit-Influenced Amiibo
 
 1. a vanilla amiibo should have no abilites
 2. the stats on an amiibo should be 0
-3. the `type` of amiibo should be grey/normal (as opposed to grapple(green) / attack(red) / defense(blue) )
+3. the `type` of amiibo should be grey/normal (as opposed to grab(green) / attack(red) / defense(blue) )

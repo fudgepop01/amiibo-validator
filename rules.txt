@@ -1,0 +1,41 @@
+# PLACE ME IN THE SAME FOLDER AS THE VALIDATOR TO CONFIGURE IT
+
+# this is a comment
+# you can use them to write stuff without breaking the program
+# please refrain from breaking the program <3
+# - fudgepop01#0448
+
+# automatically sorts amiibo into banned and permitted folders
+AUTO_SORT = false
+
+# whether or not amiibox (modded) amiibo should be banned
+BAN_AMIIBOX = true
+
+# whether or not stats should be checked
+LIMIT_STAT_MODIFICATION = true
+
+# remove the # from the following lines if
+# you want to get more specific with stat bans:
+# MAX_DEFENSE = 5000
+# MIN_DEFENSE = -5000
+# MAX_ATTACK = 5000
+# MIN_ATTACK = -5000
+# STAT_TOTAL_MAX = 5000
+
+# whether or not to check amiibo 'typing' (normal, attack, defense, grab)
+SHOULD_BAN_TYPING = true
+BANNED_TYPES = [
+  attack
+  defense
+  grab
+]
+
+# the list of banned abilities.
+# COPY AND PASTE the ones you want to BAN from the "abilities.txt" file
+# BAN_MODE can be either:
+# - "include" (ban these abilities)
+# - "exclude" (ban all EXCEPT these abilities)
+SHOULD_BAN_ABILITIES = true
+ABILITY_BAN_MODE = exclude
+ABILITIES = [
+]
